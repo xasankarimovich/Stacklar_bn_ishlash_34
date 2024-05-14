@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:stack_in_profile/jack_profile/jack_profile.dart';
 import 'package:stack_in_profile/utils/styles.dart';
 
@@ -71,7 +69,7 @@ class DaySchedule extends StatelessWidget {
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (ctx) {
-                              return JackProfile();
+                              return const JackProfile();
                             },
                           ),
                         );
@@ -133,7 +131,7 @@ class DaySchedule extends StatelessWidget {
                               borderRadius: BorderRadius.circular(
                                 20,
                               ),
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                   image: AssetImage(
                                     "assets/images/barg.png",
                                   ),
@@ -147,7 +145,7 @@ class DaySchedule extends StatelessWidget {
                               borderRadius: BorderRadius.circular(
                                 20,
                               ),
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                   image: AssetImage(
                                     "assets/images/zontek.png",
                                   ),
@@ -161,7 +159,7 @@ class DaySchedule extends StatelessWidget {
                               borderRadius: BorderRadius.circular(
                                 20,
                               ),
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                   image: AssetImage(
                                     "assets/images/bargcha.png",
                                   ),
@@ -175,7 +173,7 @@ class DaySchedule extends StatelessWidget {
                               borderRadius: BorderRadius.circular(
                                 20,
                               ),
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                   image: AssetImage(
                                     "assets/images/shapka.png",
                                   ),
@@ -186,7 +184,7 @@ class DaySchedule extends StatelessWidget {
                       ),
                     ),
                     RichText(
-                      text: TextSpan(
+                      text: const TextSpan(
                         children: [
                           TextSpan(
                             text: "Day",
@@ -215,7 +213,7 @@ class DaySchedule extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(
                                     20,
                                   ),
-                                  image: DecorationImage(
+                                  image: const DecorationImage(
                                       image: AssetImage(
                                         "assets/images/wedding.png",
                                       ),
@@ -223,7 +221,7 @@ class DaySchedule extends StatelessWidget {
                                 ),
                               ),
                               20.height(),
-                              Text(
+                              const Text(
                                 "Wedding",
                                 style: TextStyle(
                                   fontSize: 30,
@@ -232,7 +230,7 @@ class DaySchedule extends StatelessWidget {
                                 ),
                               ),
                               10.height(),
-                              Text(
+                              const Text(
                                 "03 50 True",
                                 style: TextStyle(
                                   fontSize: 24,
@@ -253,7 +251,7 @@ class DaySchedule extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(
                                     20,
                                   ),
-                                  image: DecorationImage(
+                                  image: const DecorationImage(
                                       image: AssetImage(
                                         "assets/images/brithday.png",
                                       ),
@@ -261,7 +259,7 @@ class DaySchedule extends StatelessWidget {
                                 ),
                               ),
                               20.height(),
-                              Text(
+                              const Text(
                                 "Birthdays",
                                 style: TextStyle(
                                   fontSize: 30,
@@ -270,7 +268,7 @@ class DaySchedule extends StatelessWidget {
                                 ),
                               ),
                               10.height(),
-                              Text(
+                              const Text(
                                 "06:35 time",
                                 style: TextStyle(
                                   fontSize: 24,
@@ -291,7 +289,7 @@ class DaySchedule extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(
                                     20,
                                   ),
-                                  image: DecorationImage(
+                                  image: const DecorationImage(
                                       image: AssetImage(
                                         "assets/images/party.png",
                                       ),
@@ -299,7 +297,7 @@ class DaySchedule extends StatelessWidget {
                                 ),
                               ),
                               20.height(),
-                              Text(
+                              const Text(
                                 "party",
                                 style: TextStyle(
                                   fontSize: 30,
@@ -308,7 +306,7 @@ class DaySchedule extends StatelessWidget {
                                 ),
                               ),
                               10.height(),
-                              Text(
+                              const Text(
                                 "10:25 time",
                                 style: TextStyle(
                                   fontSize: 24,

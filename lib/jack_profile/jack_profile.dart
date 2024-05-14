@@ -1,6 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:gap/gap.dart';
 import 'package:stack_in_profile/utils/styles.dart';
 
@@ -26,7 +25,7 @@ class _JackProfileState extends State<JackProfile> {
                 Container(
                   height: 150,
                   width: 150,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(
                       Radius.circular(
                         20,
@@ -44,25 +43,25 @@ class _JackProfileState extends State<JackProfile> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       "Jack",
                       style: AppTextStyles.HeadLineblack,
                     ),
-                    Gap(10),
-                    Text(
+                    const Gap(10),
+                    const Text(
                       "Party organizer",
                       style: TextStyle(
                         fontSize: 24,
                         color: Colors.black38,
                       ),
                     ),
-                    Gap(15),
+                    const Gap(15),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.red,
                       ),
                       onPressed: () {},
-                      child: Text(
+                      child: const Text(
                         "Read more",
                         style: TextStyle(
                           color: Colors.white,
@@ -96,7 +95,7 @@ class _JackProfileState extends State<JackProfile> {
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
+                        const Text(
                           "October",
                           style: TextStyle(
                             fontSize: 50,
@@ -105,7 +104,7 @@ class _JackProfileState extends State<JackProfile> {
                           ),
                         ),
                         10.width(),
-                        Text(
+                        const Text(
                           "Holidays",
                           style: TextStyle(
                             fontWeight: FontWeight.normal,
@@ -123,7 +122,7 @@ class _JackProfileState extends State<JackProfile> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(
+                                borderRadius: const BorderRadius.all(
                                   Radius.circular(
                                     20,
                                   ),
@@ -147,7 +146,7 @@ class _JackProfileState extends State<JackProfile> {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
+                            const Text(
                               "Thanksgiving",
                               style: TextStyle(
                                 fontSize: 24,
@@ -155,7 +154,7 @@ class _JackProfileState extends State<JackProfile> {
                               ),
                             ),
                             5.height(),
-                            Text(
+                            const Text(
                               "\$ 174.99",
                               style: TextStyle(
                                 fontSize: 34,
@@ -164,13 +163,13 @@ class _JackProfileState extends State<JackProfile> {
                             ),
                           ],
                         ),
-                        Spacer(),
+                        const Spacer(),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.grey,
                           ),
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             "View",
                             style: TextStyle(
                               color: Colors.white,
@@ -182,7 +181,7 @@ class _JackProfileState extends State<JackProfile> {
                       ],
                     ),
                     10.height(),
-                    Divider(),
+                    const Divider(),
                     10.height(),
                     Row(
                       children: [
@@ -191,7 +190,7 @@ class _JackProfileState extends State<JackProfile> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(
+                                borderRadius: const BorderRadius.all(
                                   Radius.circular(
                                     20,
                                   ),
@@ -215,7 +214,7 @@ class _JackProfileState extends State<JackProfile> {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
+                            const Text(
                               "Halloween",
                               style: TextStyle(
                                 fontSize: 24,
@@ -223,7 +222,7 @@ class _JackProfileState extends State<JackProfile> {
                               ),
                             ),
                             5.height(),
-                            Text(
+                            const Text(
                               "\$ 326.00",
                               style: TextStyle(
                                 fontSize: 34,
@@ -232,13 +231,13 @@ class _JackProfileState extends State<JackProfile> {
                             ),
                           ],
                         ),
-                        Spacer(),
+                        const Spacer(),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.grey,
                           ),
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             "View",
                             style: TextStyle(
                               color: Colors.white,
@@ -250,7 +249,7 @@ class _JackProfileState extends State<JackProfile> {
                       ],
                     ),
                     10.height(),
-                    Divider(),
+                    const Divider(),
                     10.height(),
                     Row(
                       children: [
@@ -259,7 +258,7 @@ class _JackProfileState extends State<JackProfile> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(
+                                borderRadius: const BorderRadius.all(
                                   Radius.circular(
                                     20,
                                   ),
@@ -283,7 +282,7 @@ class _JackProfileState extends State<JackProfile> {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
+                            const Text(
                               "Holiday",
                               style: TextStyle(
                                 fontSize: 24,
@@ -291,7 +290,7 @@ class _JackProfileState extends State<JackProfile> {
                               ),
                             ),
                             5.height(),
-                            Text(
+                            const Text(
                               "\$ 51.99",
                               style: TextStyle(
                                 fontSize: 34,
@@ -300,13 +299,13 @@ class _JackProfileState extends State<JackProfile> {
                             ),
                           ],
                         ),
-                        Spacer(),
+                        const Spacer(),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.red,
                           ),
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             "View",
                             style: TextStyle(
                               color: Colors.white,
@@ -318,9 +317,9 @@ class _JackProfileState extends State<JackProfile> {
                       ],
                     ),
                     10.height(),
-                    Divider(),
+                    const Divider(),
                     10.height(),
-                    RichText(text: TextSpan(
+                    RichText(text: const TextSpan(
                       children: [
                         TextSpan(text:
                             "Party",style: AppTextStyles.HeadLineblack,
@@ -346,7 +345,7 @@ class _JackProfileState extends State<JackProfile> {
                                   borderRadius: BorderRadius.circular(
                                     20,
                                   ),
-                                  image: DecorationImage(
+                                  image: const DecorationImage(
                                       image: AssetImage(
                                         "assets/images/party.png",
                                       ),
@@ -354,7 +353,7 @@ class _JackProfileState extends State<JackProfile> {
                                 ),
                               ),
                               20.height(),
-                              Text(
+                              const Text(
                                 "Birthdays",
                                 style: TextStyle(
                                   fontSize: 30,
@@ -376,7 +375,7 @@ class _JackProfileState extends State<JackProfile> {
                                   borderRadius: BorderRadius.circular(
                                     20,
                                   ),
-                                  image: DecorationImage(
+                                  image: const DecorationImage(
                                       image: AssetImage(
                                         "assets/images/brithday.png",
                                       ),
@@ -384,7 +383,7 @@ class _JackProfileState extends State<JackProfile> {
                                 ),
                               ),
                               20.height(),
-                              Text(
+                              const Text(
                                 "Birthdays",
                                 style: TextStyle(
                                   fontSize: 30,
@@ -406,7 +405,7 @@ class _JackProfileState extends State<JackProfile> {
                                   borderRadius: BorderRadius.circular(
                                     20,
                                   ),
-                                  image: DecorationImage(
+                                  image: const DecorationImage(
                                       image: AssetImage(
                                         "assets/images/party.png",
                                       ),
@@ -414,7 +413,7 @@ class _JackProfileState extends State<JackProfile> {
                                 ),
                               ),
                               20.height(),
-                              Text(
+                              const Text(
                                 "Birthdays",
                                 style: TextStyle(
                                   fontSize: 30,
